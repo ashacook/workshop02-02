@@ -1,0 +1,192 @@
+#tile-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.col-10 {
+  width: 10%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+
+.col {
+  height: 100%;
+  float: left;
+}
+
+#col-1 {
+  background: #ffece4;
+}
+
+#col-1 .stripe {
+  height: 100%;
+  width: 1%;
+  float: left;
+}
+
+#col-1 .stripe:nth-child(2n+0) {
+  background: #ffd9d9;
+}
+
+#col-2 {
+  background: #dffa50;
+}
+
+#col-2 .stripe {
+ height: 100%;
+ width: 50%;
+ float: left;
+}
+
+#col-3 {
+  background: white;
+}
+
+#col-3 .stripe {
+  height: 5%;
+  width: 100%;
+  background: #ffafab;
+  float: left;
+}
+
+#col-3 .stripe:nth-child(2n+0) {
+  background: #ebd7dc;
+}
+
+
+/* CCS @MEDIA SCREEN 4 LATER */
+@media screen and (max-width: 400px) and (min-width: 0px) {
+
+/*
+  element {
+    background: blue;
+  }
+*/
+
+}
+
+
+/* DON'T DELETE THIS */
+#flag-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: red;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+
+/* DON'T DELETE THIS */
+#flag-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: red;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
